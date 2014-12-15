@@ -16,6 +16,9 @@
             height: 18px;
             width: 21px;
         }
+        .auto-style3 {
+            margin-left: 400px;
+        }
     </style>
 </head>
 <body>
@@ -24,14 +27,14 @@
     
         <div id ="body">
         <div id="header">  
-        <h2> <asp:Label ID="WelcomeLbl" runat="server" Text="Welcome to" meta:resourceKey="Welcomelbl"></asp:Label>&nbsp;MSCI:3300</h2>
+        <h2> <asp:Label ID="WelcomeLbl" runat="server" Text="Welcome to" meta:resourceKey="WelcomeLbl"></asp:Label>&nbsp;MSCI:3300</h2>
         <h3><asp:Label ID="ClassLbl" runat="server" Text="Software Design and Development" meta:resourceKey="ClassLbl"></asp:Label></h3>
         <h3> <img src="../img/WorldSpinning.gif" alt="" class="auto-style2"/> &nbsp; English | Español | العربية  | 中國 &nbsp; <img src="../img/WorldSpinning.gif" alt="" class="auto-style2"/></h3>
         </div>
 
     <div id="column-left" class="auto-style1">
         <div id="column-left-text">
-            <asp:Label ID="SelectLanguagelbl" runat="server" Text="Please select your language:" meta:resourceKey="SelectLanguagelbl"></asp:Label>
+            <asp:Label ID="LenguageSelectlbl" runat="server" Text="Please select your language:" meta:resourceKey="LenguageSelectlbl"></asp:Label>
         &nbsp;&nbsp;<asp:DropDownList ID="OriginalDropdown" runat="server" AutoPostBack="true">
             <asp:ListItem Value="en-US">English(US)</asp:ListItem>
             <asp:ListItem Value="es-ES">Español(Spanish)</asp:ListItem>
@@ -56,8 +59,8 @@
         <br />
             <br />
             <asp:Label ID="HelloLbl"  runat="server" Text="Hello" meta:resourceKey="HelloLbl"></asp:Label>
-&nbsp;<asp:Label ID="SexLbl" runat="server" Text="Mr./Ms."></asp:Label>
-&nbsp;<asp:Label ID="NameResultsLbl" runat="server"></asp:Label>
+            &nbsp;<asp:Label ID="SexLbl" runat="server" Text="Mr./Ms."></asp:Label>
+            &nbsp;<asp:Label ID="NameResultsLbl" runat="server"></asp:Label>
         <br />
       <asp:Label ID="Genderlbl" runat="server"  Text="I am:" meta:resourceKey="GenderLbl"></asp:Label>&nbsp;&nbsp;
             <asp:RadioButtonList ID="MaleFemaleRb" runat="server">
@@ -93,10 +96,32 @@
             <br />
         <br />
         <asp:Button ID="Submitbtn" runat="server" Text="Submit"  meta:resourceKey="Submitbtn"/>
+            
             </div>
     </div>
     </div>
     </form>
     </div>
-</body>
+            
+            <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4> &nbsp;</h4>
+    <h4 class="auto-style3"> Software Desing And Development | MSCI:3300 | University of Iowa</h4>
+            </body>
 </html>

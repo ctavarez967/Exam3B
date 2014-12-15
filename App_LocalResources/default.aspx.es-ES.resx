@@ -121,7 +121,7 @@
     <value>como salario en su primer trabajo!</value>
   </data>
   <data name="HopeLbl.Text" xml:space="preserve">
-    <value>Espero que deseamos lo mejor en su carrera después
+    <value>Le deseamos lo mejor en su carrera, después 
 graduación. Espero que gane</value>
   </data>
   <data name="Earningslbl.Text" xml:space="preserve">
@@ -161,7 +161,7 @@ graduación. Espero que gane</value>
     <value>¡Por favor seleccione su género!</value>
   </data>
   <data name="Submitbtn.Text" xml:space="preserve">
-    <value>Ppresentar</value>
+    <value>Enviar</value>
   </data>
   <data name="currencyLbl.Text" xml:space="preserve">
     <value>$</value>
