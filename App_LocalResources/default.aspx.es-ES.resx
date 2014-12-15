@@ -131,7 +131,7 @@ graduación. Espero que gane</value>
     <value>¡Introduzca su salario deseado!</value>
   </data>
   <data name="FemaleRb.Text" xml:space="preserve">
-    <value>Femenino</value>
+    <value>Mujer</value>
   </data>
   <data name="Genderlbl.Text" xml:space="preserve">
     <value>Yo soy:</value>
@@ -146,7 +146,7 @@ graduación. Espero que gane</value>
     <value>¡Hola</value>
   </data>
   <data name="MaleRb.Text" xml:space="preserve">
-    <value>Masculino</value>
+    <value> Hombre</value>
   </data>
   <data name="Namelbl.Text" xml:space="preserve">
     <value>Mi nombre es:</value>

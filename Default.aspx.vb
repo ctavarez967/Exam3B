@@ -145,4 +145,5 @@ Partial Class _Default
         Dim earnings As Decimal = Earningstbx.Text
         EarningsResultLbl.Text = String.Format("{0:n}", earnings)
     End Sub
+
 End Class
